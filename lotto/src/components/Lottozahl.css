@@ -1,0 +1,14 @@
+.lottozahl {
+  width: 6rem;
+  height: 6rem;
+  border-radius: 3rem;
+  font-family: "Oswald", sans-serif;
+  font-size: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(30deg, hsl(0, 0%, 70%), hsl(0, 0%, 100%));
+}
+.zusatz {
+  background: linear-gradient(30deg, hsl(195, 53%, 50%), hsl(195, 53%, 100%));
+}

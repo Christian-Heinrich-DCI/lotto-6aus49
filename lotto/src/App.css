@@ -1,0 +1,31 @@
+body {
+  font-family: "Rubik", sans-serif;
+}
+h1 {
+  color: #333;
+  font-size: 2.5rem;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.kreis-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+button {
+  margin: 2rem 1rem;
+  border: 0.25rem solid #add8e6;
+  font-size: 1.25rem;
+  border-radius: 0.5em;
+  padding: 0.5rem 1rem;
+  background-color: transparent;
+  transition: background-color 0.5s;
+}
+
+button:hover {
+  background-color: #add8e6;
+  cursor: pointer;
+}
