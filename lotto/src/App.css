@@ -4,11 +4,23 @@ body {
 h1 {
   color: #333;
   font-size: 2.5rem;
+  margin: 0 0 1.5rem 0;
+}
+body {
+  min-height: 100vh;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  background-color: #f0f0f0;
 }
 main {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: #fff;
+  border: 1px solid #999;
+  border-radius: 3rem;
+  padding: 3rem;
 }
 .kreis-container {
   display: flex;
@@ -24,7 +36,6 @@ button {
   background-color: transparent;
   transition: background-color 0.5s;
 }
-
 button:hover {
   background-color: #add8e6;
   cursor: pointer;
